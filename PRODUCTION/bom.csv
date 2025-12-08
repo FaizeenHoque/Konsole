@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,RaspberryPi_Pico_Common_THT,1,RaspberryPi_Pico,
+BZ1,Buzzer_Mallory_AST1109MLTRQ,1,Buzzer,
+"SW1, SW3, SW9",SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm,3,SW_Wuerth_450301014042,
+"SW10, SW2, SW5, SW6, SW7, SW8",SW_PUSH-12mm,6,SW_Push,
+U3,CR2013-MI2120,1,CR2013-MI2120,
