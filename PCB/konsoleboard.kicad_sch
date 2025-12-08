@@ -5,167 +5,6 @@
 	(uuid "8801f65f-29a7-4e9c-b309-4c4e7956b91d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 3.1612 0)
-					(end 0 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Driver_Display:CR2013-MI2120"
 			(pin_names
 				(offset 0.762)
@@ -2222,12 +2061,12 @@
 		(uuid "760331f2-0cac-40b0-8962-9112811147d1")
 	)
 	(no_connect
-		(at 93.98 101.6)
-		(uuid "a0fb97dd-7881-4187-a2e9-28e2c9f05a75")
+		(at 76.2 152.4)
+		(uuid "7f85b542-f2c9-41c9-a9cb-43ef3416c54c")
 	)
 	(no_connect
-		(at 207.01 35.56)
-		(uuid "a684a0e6-6531-4966-8aa4-803ce2c92bf7")
+		(at 93.98 101.6)
+		(uuid "a0fb97dd-7881-4187-a2e9-28e2c9f05a75")
 	)
 	(no_connect
 		(at 76.2 129.54)
@@ -3061,28 +2900,6 @@
 			)
 		)
 	)
-	(global_label "BuzzerToggleSwitch"
-		(shape input)
-		(at 76.2 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f1d6b85-7a0b-48a7-9369-63404cd57443")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.5883 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FLASH_CD"
 		(shape output)
 		(at 22.86 179.07 180)
@@ -3259,28 +3076,6 @@
 			)
 		)
 	)
-	(global_label "BuzzerToggleSwitch"
-		(shape output)
-		(at 207.01 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d0a9a77c-36ff-42a9-8f71-efd7b40e463e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6217 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GameToggleSwitch"
 		(shape input)
 		(at 76.2 149.86 180)
@@ -3316,28 +3111,6 @@
 		(uuid "ee7ead81-47ea-4933-b1cc-4ba08f13c3a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 13.9482 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BuzzerP"
-		(shape input)
-		(at 252.73 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6413768-1b97-4704-acd1-f8619ff0f1f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.1248 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,72 +3203,6 @@
 			(project ""
 				(path "/8801f65f-29a7-4e9c-b309-4c4e7956b91d"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19fd1e2c-ae26-48b3-ab02-856e512bdd98")
-		(property "Reference" "#PWR05"
-			(at 252.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd5257e2-0f35-46d9-81df-9a80a8ef0905")
-		)
-		(instances
-			(project ""
-				(path "/8801f65f-29a7-4e9c-b309-4c4e7956b91d"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3769,77 +3476,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Wuerth_450301014042")
-		(at 201.93 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56a6ee1c-b285-4691-9bf9-802d3edafd42")
-		(property "Reference" "SW1"
-			(at 201.93 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Wuerth_450301014042"
-			(at 201.93 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
-			(at 201.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
-			(at 201.93 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch slide, single pole double throw"
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "69c195a0-ac75-46c2-995b-742b9ae50e11")
-		)
-		(pin "3"
-			(uuid "078b5ee1-3c5b-4b31-98bc-8cecd20d2e53")
-		)
-		(pin "1"
-			(uuid "b2e1aea6-7238-4069-bac8-2403765a792c")
-		)
-		(instances
-			(project "konsoleboard"
-				(path "/8801f65f-29a7-4e9c-b309-4c4e7956b91d"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 196.85 24.13 90)
 		(unit 1)
@@ -3901,76 +3537,6 @@
 			(project "konsoleboard"
 				(path "/8801f65f-29a7-4e9c-b309-4c4e7956b91d"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Buzzer")
-		(at 255.27 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b4028e7-3085-45c3-a64e-ed093a0c8014")
-		(property "Reference" "BZ1"
-			(at 259.08 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 259.08 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_Mallory_AST1109MLTRQ"
-			(at 254.635 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254.635 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 255.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30eeb5de-cd73-4a9a-94f9-de2829ff0aaa")
-		)
-		(pin "2"
-			(uuid "555200ff-f3a5-4558-9e8c-4d9b345a8438")
-		)
-		(instances
-			(project ""
-				(path "/8801f65f-29a7-4e9c-b309-4c4e7956b91d"
-					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -4417,73 +3983,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 196.85 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4b6e0a9-91d6-43e4-ba22-0ef867ea7078")
-		(property "Reference" "#PWR02"
-			(at 200.66 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.04 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 196.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ae6a242-5ecd-4e90-a172-375cf3e224b8")
-		)
-		(instances
-			(project "konsoleboard"
-				(path "/8801f65f-29a7-4e9c-b309-4c4e7956b91d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 245.11 48.26 0)
 		(unit 1)
@@ -4635,6 +4134,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "SW_Wuerth_450301014042"
